@@ -1,0 +1,32 @@
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Dependencies / builds
+vendor/
+node_modules/
+dist/
+build/
+
+# Logs / cache / tmp
+*.log
+logs/
+cache/
+tmp/
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# Composer artefacts
+composer.lock
+
+# Frontend tools
+coverage/
+*.map
+
+# Misc
+.ssh/
